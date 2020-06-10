@@ -29,6 +29,8 @@
 
   --color-brown: #584b4f;
 
+  --color-dark-brown: #343030;
+
   /* Font size */
 
   --font-large: 48px;
@@ -422,4 +424,30 @@ p {
   margin-left: -12px;
   margin-top: 8px;
   background-color: var(--color-dark-white);
+}
+
+/* Contact */
+#contact {
+  background-color: var(--color-dark-grey);
+}
+
+.contact__title,
+.contact__email,
+.contact__rights {
+  color: var(--color-white);
+}
+
+.contact__title {
+  margin: 32px 0;
+}
+
+.contact__links {
+  font-size: var(--font-large);
+  margin: 24px 0;
+}
+
+.contact__links i:hover {
+  transform: scale(1.1);
+  color: var(--color-black);
+  transition: all var(--animation-duration) ease-in;
 }
