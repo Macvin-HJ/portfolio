@@ -27,6 +27,8 @@
 
   --color-black: #000000;
 
+  --color-light-black: #1e1c1c;
+
   --color-brown: #584b4f;
 
   --color-dark-brown: #343030;
@@ -146,8 +148,8 @@ p {
 }
 
 #navbar.navbar--dark {
-  background-color: var(--color-brown);
-  padding: 8px;
+  background-color: var(--color-light-black);
+  padding: 4px;
 }
 
 .navbar__menu {
@@ -171,7 +173,7 @@ p {
 }
 
 .navbar__menu__item:hover {
-  background-color: var(--color-dark-pink);
+  background-color: var(--color-orange);
 }
 
 .navbar__toggle-btn {
@@ -211,6 +213,10 @@ p {
   padding: 8px 12px;
   border: 2px solid var(--color-white);
   border-radius: var(--size-border-radius);
+}
+
+.home__contact:hover {
+  background-color: var(--color-orange);
 }
 
 /* Section common */
