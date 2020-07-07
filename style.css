@@ -188,15 +188,15 @@ p {
 #home {
   background: url("imgs/home-background.png") center/cover no-repeat;
   padding: 40px;
-  padding-top: 120px;
-  text-align: center;
+  padding-top: 180px;
+  padding-bottom: 80px;
+  text-align: right;
 }
 
-.home__avatar {
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
-  border: 2px solid var(--color-light-white);
+.home__container {
+  position: relative;
+  top: 70px;
+  text-align: right;
 }
 
 .home__title,
@@ -525,6 +525,10 @@ p {
 
     --font-micro: 12px;
   }
+  .home__container {
+    text-align: center;
+  }
+
   .navbar__toggle-btn {
     display: block;
     top: 16px;
