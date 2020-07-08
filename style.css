@@ -529,6 +529,11 @@ p {
     text-align: center;
   }
 
+  .home__title,
+  .home__description {
+    color: var(--color-orange);
+  }
+
   .navbar__toggle-btn {
     display: block;
     top: 16px;
