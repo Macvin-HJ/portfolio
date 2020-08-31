@@ -53,12 +53,11 @@
     <section id="about" class="section section__container">
       <h1>About Me</h1>
       <p>
-        I'm a front-end developer who is highly motivated and proactive. 
-        I'm always interested in making something out of coding. <br/>
-        It's really interesting to be able to implement an idea in my head. 
-        Since also I'm interested in back-end and python, <br/>
-        I want to grow into a manpower that can participate in back-end projects as well as front-ends,
-        various projects in the future.
+        初めまして。イヒョンジョンと申します。<br>
+        自分のアイディアを限りなく、パソコン上で表現できるプログラミングに魅力を感じ、<br>
+        WEB開発から現在はアプリ(Swift)開発を独学で取り組んでおります。<br>
+        ぜひ下記のポートフォリオの写真をクリックして見て頂くと幸いです。
+        宜しくお願い致します。      
       </p>
       <div class="about__majors">
         <div class="major">
@@ -121,12 +120,13 @@
     <!-- Skills -->
     <section id="skills" class="section">
       <div class="section__container">
-        <h1>Skills</h1>
-        <h2>Skills & Attributes</h2>
+        <h1>スキル</h1>
+        
         <p>
-          Passion for learning new technologies.
-          Capable of working within a team environment and independently. <br/>
-          Ability to plan and time schedule, work under strict time pressure and adapt quickly when needed.
+          HTML、CSSの文法及びMedia queryで反応系WEBサイト構築。<br>
+          JavaScriptでback-endをコントロール。<br>
+          IOS(Swift)は基本文法及びOpen APIを活用、JSONファイルのエンコード、デコード<br>
+          ストーリーボードのセグメント、オートレイアウトなど活用してアプリを作っております。
         </p>
       </div>
       <div class="skillset">
@@ -161,27 +161,39 @@
           </div>
           <div class="skill">
             <div class="skill_description">
-              <span>Python</span>
-              <span>55%</span>
+              <span>Swift</span>
+              <span>75%</span>
             </div>
             <div class="skill__bar">
-              <div class="skill__value" style="width: 55%;"></div>
+              <div class="skill__value" style="width: 75%;"></div>
             </div>
           </div>
+
+          <div class="skill">
+            <div class="skill_description">
+              <span>Python</span>
+              <span>50%</span>
+            </div>
+            <div class="skill__bar">
+              <div class="skill__value" style="width: 50%;"></div>
+            </div>
+          </div>
+
         </div>
         <div class="skillset__right">
           <div class="tools">
             <h3 class="skillset__title">Tools</h3>
             <ul class="tools__list">
-              <li><span>Visual Studio Code</span></li>
-              <li><span>Pycharm</span></li>
+              <li><span>Xcode</span></li>
               <li><span>Atom</span></li>
+              <li><span>Pycharm</span></li>
+              <li><span>Visual Studio Code</span></li>
             </ul>
           </div>
           <div class="etc">
             <h3 class="skillset__title">Etc</h3>
             <ul class="etc__list">
-              <li><span>Git</span></li>
+              <li><span>Github</span></li>
             </ul>
           </div>
         </div>
@@ -191,20 +203,17 @@
     <!-- Work -->
     <section id="work" class="section">
       <div class="section__container">
-        <h1>My work</h1>
-      <h3>Projects</h3>
+        <h1>ポートフォリオ</h1>
+      <h3>プロジェクト</h3>
       <div class="work__categories">
         <button class="category__btn selected" data-filter="*">
-          All<span class="category__count">5</span>
+          All<span class="category__count">7</span>
         </button>
         <button class="category__btn" data-filter="front-end">
           Front-end<span class="category__count">3</span>
         </button>
-        <button class="category__btn" data-filter="back-end">
-          Back-end<span class="category__count">1</span>
-        </button>
-        <button class="category__btn" data-filter="GUI">
-          GUI<span class="category__count">1</span>
+        <button class="category__btn" data-filter="Mobile(IOS)">
+          Mobile(IOS)<span class="category__count">4</span>
         </button>
       </div>
 
@@ -246,29 +255,57 @@
           </div>
         </a>
         <a
-          href="https://github.com/SrcCoderH/React-boiler-plate"
+          href="https://github.com/Macvin-dev/EggTimer"
           class="project"
           target="blank"
-          data-type="back-end"
+          data-type="Mobile(IOS)"
         >
-          <img src="imgs/projects/signup.png" alt="signUp" />
+          <img src="imgs/projects/eggtimer.png" alt="eggtimer" />
           <div class="project__description">
-            <h3>Sign Up Page</h3>
-            <span>React JSX, MongoDB, Ant design</span>
+            <h3>Egg Timer</h3>
+            <span>Swift</span>
           </div>
         </a>
+
         <a
-          href="https://github.com/SrcCoderH/GUI_Combine_Image_Tool"
+          href="https://github.com/Macvin-dev/Quiz"
           class="project"
           target="blank"
-          data-type="GUI"
+          data-type="Mobile(IOS)"
         >
-          <img src="imgs/projects/py_gui.png" alt="GUI" />
+          <img src="imgs/projects/quiz.png" alt="quiz" />
           <div class="project__description">
-            <h3>Image Combine Tool</h3>
-            <span>Python(tkinter)</span>
+            <h3>Quizzler</h3>
+            <span>Swift</span>
           </div>
         </a>
+
+        <a
+          href="https://github.com/Macvin-dev/BMI-Calculator"
+          class="project"
+          target="blank"
+          data-type="Mobile(IOS)"
+        >
+          <img src="imgs/projects/bmi.png" alt="bmi" />
+          <div class="project__description">
+            <h3>BMI Calculator</h3>
+            <span>Swift</span>
+          </div>
+        </a>
+
+        <a
+          href="https://github.com/Macvin-dev/WeatherApp"
+          class="project"
+          target="blank"
+          data-type="Mobile(IOS)"
+        >
+          <img src="imgs/projects/weather.png" alt="weather" />
+          <div class="project__description">
+            <h3>Weather App</h3>
+            <span>Swift</span>
+          </div>
+        </a>
+
       </div>
       </div>
     </section>
